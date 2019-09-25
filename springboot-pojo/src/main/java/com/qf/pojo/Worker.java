@@ -19,14 +19,25 @@ public class Worker {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 人员名称
+     */
     private String workername;
 
-    private String workernum;
+    /**
+     * 人员电话
+     */
+    private String phonenum;
 
+    /**
+     * 人员图片
+     */
     private String workerimg;
 
+    /**
+     * 部门ID
+     */
     @ManyToOne
-    @JoinColumn(name = "departmentid")
-    private String department;
+    private String departmentid;
 
 }

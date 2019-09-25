@@ -19,8 +19,14 @@ public class Department {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 部门名称
+     */
     private String departmentname;
 
+    /**
+     * 部门描述
+     */
     private String departmentdescription;
 
 

@@ -20,8 +20,14 @@ public class Delegation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 代表团名称
+     */
     private String delegationname;
 
+    /**
+     * 代表团地区
+     */
     private String area;
 
 

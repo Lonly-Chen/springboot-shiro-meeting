@@ -20,15 +20,30 @@ public class Seat {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 会议名称
+     */
     private String meetingname;
 
+    /**
+     * 会议时间
+     */
     private Date meetingtime;
 
+    /**
+     * 会议地点
+     */
     private String meetingarea;
 
+    /**
+     * 座次安排
+     */
     private String seatarea;
 
+    /**
+     * 会议通知ID
+     */
     @OneToOne
-    private String notice;
+    private String noticeid;
 
 }

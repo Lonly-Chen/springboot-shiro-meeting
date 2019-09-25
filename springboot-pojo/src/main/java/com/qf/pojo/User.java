@@ -13,26 +13,49 @@ import javax.persistence.*;
 @Entity
 @Table(name = "user")
 public class User {
-
+    /**
+     * 用户表
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 用户名称
+     */
     private String username;
 
+    /**
+     * 用户真实名称
+     */
     private String userrealname;
 
-    private Integer phonenum;
+    /**
+     * 用户电话
+     */
+    private String phonenum;
 
-    private Integer password;
+    /**
+     * 用户密码
+     */
+    private String password;
 
+    /**
+     * 用户头像
+     */
     private String userimg;
 
+    /**
+     * 用户和职位多对多
+     */
     @ManyToMany
     @JoinTable(name = "userposition", joinColumns = {@JoinColumn(name = "userid")}, inverseJoinColumns = {@JoinColumn(name = "positoinid")})
-    private String position;
+    private String positionid;
 
+    /**
+     * 用户和会议通知多对多
+     */
     @ManyToMany
     @JoinTable(name = "usernotice", joinColumns = {@JoinColumn(name = "userid")}, inverseJoinColumns = {@JoinColumn(name = "noticeid")})
-    private String notice;
+    private String noticeid;
 }

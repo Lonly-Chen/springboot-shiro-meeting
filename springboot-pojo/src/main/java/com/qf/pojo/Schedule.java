@@ -20,14 +20,29 @@ public class Schedule {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 会议名称
+     */
     private String meetingname;
 
+    /**
+     * 会议时间
+     */
     private Date meetingtime;
 
+    /**
+     * 会议地点
+     */
     private String meetingarea;
 
+    /**
+     * 会议议程详情地址
+     */
     private String scheduleurl;
 
+    /**
+     * 会议通知ID
+     */
     @OneToOne
-    private String notice;
+    private String noticeid;
 }

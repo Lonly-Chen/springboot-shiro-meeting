@@ -20,11 +20,20 @@ public class Position {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 职位名称
+     */
     private String positionname;
 
+    /**
+     * 职位描述
+     */
     private String description;
 
+    /**
+     * 代表团Id
+     */
     @ManyToOne
-    private String delegation;
+    private String delegationid;
 
 }

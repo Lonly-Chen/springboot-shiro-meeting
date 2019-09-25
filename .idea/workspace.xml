@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d7d06bd-b7d2-48db-8530-47a362437ee7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/test/java/com/qf/meeting/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-shiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-shiro/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/qf/meeting/springbootshiro/SpringbootShiroApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/qf/meeting/springbootshiro/SpringbootShiroApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Delegation.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Delegation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Notice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Worker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,28 +30,121 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-pojo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Delegation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="399">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-shiro/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="301">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Material.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/News.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Notice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Schedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Seat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-shiro/src/main/java/com/qf/meeting/springbootshiro/SpringbootShiroApplication.java">
+        <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="711">
+              <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,21 +168,21 @@
         <option value="$PROJECT_DIR$/springboot-shiro/src/main/java/com/qf/user.java" />
         <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/user.java" />
         <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/user.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Worker.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Department.java" />
         <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/UserNotice.java" />
         <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/UserPosition.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Schedule.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Delegation.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Material.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/News.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Notice.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Position.java" />
-        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Seat.java" />
         <option value="$PROJECT_DIR$/springboot-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shiro/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shiro/src/main/java/com/qf/meeting/springbootshiro/SpringbootShiroApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Notice.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Delegation.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Department.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/News.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Worker.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/User.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Seat.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Schedule.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Position.java" />
+        <option value="$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Material.java" />
       </list>
     </option>
   </component>
@@ -123,70 +220,58 @@
             <path>
               <item name="springboot-meeting" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-meeting" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-meeting" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-meeting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-meeting" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-meeting" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-meeting" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="meeting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-meeting" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootshiro" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,12 +322,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569404361275</updated>
-      <workItem from="1569404365636" duration="9264000" />
+      <workItem from="1569404365636" duration="11625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9264000" />
+    <option name="totallyTimeSpent" value="11625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -341,106 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Seat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Schedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Notice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Delegation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Material.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-pojo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
@@ -459,6 +444,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Seat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Notice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Material.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Delegation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-pojo/src/main/java/com/qf/pojo/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

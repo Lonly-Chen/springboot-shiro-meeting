@@ -20,9 +20,19 @@ public class Notice {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 会议名称
+     */
     private String meetingname;
 
+    /**
+     * 会议时间
+     */
     private Date meetingtime;
 
+    /**
+     * 会议地点
+     */
     private String meetingarea;
+
 }

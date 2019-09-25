@@ -19,12 +19,24 @@ public class Material {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    /**
+     * 会议名称
+     */
     private String meetingname;
 
+    /**
+     * 会议描述
+     */
     private String meetingdescription;
 
+    /**
+     * 会议资料的详情地址
+     */
     private String materialurl;
 
+    /**
+     * 会议通知ID
+     */
     @OneToOne
-    private String notice;
+    private String noticeid;
 }
