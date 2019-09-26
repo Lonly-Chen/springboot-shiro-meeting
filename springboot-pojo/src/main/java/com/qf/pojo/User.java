@@ -50,12 +50,12 @@ public class User {
      */
     @ManyToMany
     @JoinTable(name = "userposition", joinColumns = {@JoinColumn(name = "userid")}, inverseJoinColumns = {@JoinColumn(name = "positoinid")})
-    private String positionid;
+    private Position position;
 
     /**
      * 用户和会议通知多对多
      */
     @ManyToMany
     @JoinTable(name = "usernotice", joinColumns = {@JoinColumn(name = "userid")}, inverseJoinColumns = {@JoinColumn(name = "noticeid")})
-    private String noticeid;
+    private Notice notice;
 }

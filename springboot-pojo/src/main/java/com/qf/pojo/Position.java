@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -35,5 +36,8 @@ public class Position {
      */
     @ManyToOne
     private String delegationid;
+
+    @ManyToMany
+    private List<User> users;
 
 }
