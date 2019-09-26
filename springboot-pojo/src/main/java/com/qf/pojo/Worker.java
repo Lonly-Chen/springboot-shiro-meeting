@@ -38,6 +38,6 @@ public class Worker {
      * 部门ID
      */
     @ManyToOne
-    private String departmentid;
+    private Department department;
 
 }

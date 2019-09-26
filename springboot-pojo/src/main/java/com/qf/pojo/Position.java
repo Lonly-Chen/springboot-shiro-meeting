@@ -35,9 +35,12 @@ public class Position {
      * 代表团Id
      */
     @ManyToOne
-    private String delegationid;
+    private Delegation delegation;
 
+    /**
+     * 用户ID
+     */
     @ManyToMany
-    private List<User> users;
+    private User user;
 
 }

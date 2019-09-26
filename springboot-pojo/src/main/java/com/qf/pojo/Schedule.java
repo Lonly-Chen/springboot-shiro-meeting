@@ -44,5 +44,5 @@ public class Schedule {
      * 会议通知ID
      */
     @OneToOne
-    private String noticeid;
+    private Notice notice;
 }
