@@ -3,9 +3,9 @@ package com.qf.pojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -50,12 +50,12 @@ public class User {
      */
     @ManyToMany
     @JoinTable(name = "userposition", joinColumns = {@JoinColumn(name = "userid")}, inverseJoinColumns = {@JoinColumn(name = "positoinid")})
-    private Position position;
+    private List<Position> positions;
 
     /**
      * 用户和会议通知多对多
      */
     @ManyToMany
     @JoinTable(name = "usernotice", joinColumns = {@JoinColumn(name = "userid")}, inverseJoinColumns = {@JoinColumn(name = "noticeid")})
-    private Notice notice;
+    private List<Notice> notices;
 }

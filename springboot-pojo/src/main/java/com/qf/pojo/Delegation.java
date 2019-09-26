@@ -6,6 +6,7 @@ import lombok.Generated;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -30,6 +31,11 @@ public class Delegation {
      */
     private String area;
 
+    /**
+     * 代表团与职位一对多
+     */
+    @OneToMany
+    private List<Position> positions;
 
 
 }
